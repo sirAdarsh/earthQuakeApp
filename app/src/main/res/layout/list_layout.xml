@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/magnitude"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:paddingLeft="40dp"
+        tools:text="name 1"
+
+        />
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+
+            android:textSize="10sp"
+            android:textStyle="italic"
+            tools:text="name3"
+            android:id="@+id/extra"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textStyle="bold"
+
+            android:layout_margin="2dp"
+            tools:text="name4"
+            android:id="@+id/country"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="0dp"
+        android:paddingLeft="40dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/date"
+        tools:text="name 3"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+
+        />
+
+</LinearLayout>
